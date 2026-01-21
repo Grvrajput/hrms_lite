@@ -7,3 +7,4 @@ pydantic
 cors
 python-multipart
 fastapi
+email-validator
