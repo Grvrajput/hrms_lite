@@ -8,7 +8,7 @@ load_dotenv()
 
 DATABASE_URL = os.getenv(
     "DATABASE_URL",
-    "mysql+pymysql://root:@localhost:3306/hrms_lite"
+    "https://auth-db677.hstgr.io/index.php?route=/database/structure&db=u997410670_hrms_lite"
 )
 
 engine = create_engine(
