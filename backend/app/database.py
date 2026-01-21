@@ -8,7 +8,7 @@ load_dotenv()
 
 DATABASE_URL = os.getenv(
     "DATABASE_URL",
-    "mysql+pymysql://root:@localhost:3306/hrms_lite"
+    "http://localhost/phpmyadmin/index.php?route=/database/structure&db=hrms_lite"
 )
 
 engine = create_engine(
